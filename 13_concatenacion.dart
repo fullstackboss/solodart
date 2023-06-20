@@ -12,7 +12,7 @@ void main() {
       " Tiene una edad de " +
       edad.toString());
 
-  //Muy optimo
+  //Muy optimo para usar siempre
   print(
       'Resultado: $nombre $apellido tiene una edad de $edad y tiene una longitud de ${nombre.length} y apellido ${apellido.contains('B')}');
 }
