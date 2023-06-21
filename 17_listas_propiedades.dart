@@ -20,6 +20,10 @@ void main() {
   //lenght: Devuelve la cantidad de elementos de la lista
   print('La cantidad de elementos es: ${guerreros.length}');
 
+  //Where: Filtra una lista y muestra los elementos
+  final filtro = guerreros.where((e) => e.startsWith("b"));
+  print(filtro);
+
   //add: Agrega un elemento al final de la lista
   guerreros.add("trunks");
   print(guerreros);
