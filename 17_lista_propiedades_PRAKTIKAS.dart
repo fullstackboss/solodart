@@ -89,7 +89,7 @@ void main() {
 //INSERT
   print("-----------INSERT---------------");
   print(numConsecutivos);
-  numConsecutivos.insert(1, 999);
+  numConsecutivos.insert(0, 999);
   print(numConsecutivos);
 
 //ADDALL

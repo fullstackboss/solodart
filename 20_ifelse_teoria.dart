@@ -1,5 +1,8 @@
 void main() {
-  print("Hola mundo");
-  print("cambios");
-  print("otros cambios");
+  final email = "test@test.com";
+  if (email.contains("@")) {
+    print("TIENE");
+  } else {
+    print("NO TIENE");
+  }
 }

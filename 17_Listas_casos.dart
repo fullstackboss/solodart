@@ -1,5 +1,20 @@
 void main() {
-  List<int> numAleatorios = [2, 3, 4, 5, 7, 3, 43, 12, 8, 90, 49, 100];
+  List<int> numAleatorios = [
+    1,
+    83,
+    100,
+    43,
+    75,
+    100,
+    67,
+    3,
+    43,
+    12,
+    8,
+    90,
+    49,
+    100
+  ];
   List<int> numRepetidos = [2, 3, 2, 5, 5, 3, 4, 4, 8, 4, 5, 6];
   List<String> nombres = [
     "kakaroto",
@@ -12,14 +27,11 @@ void main() {
     "turles"
   ];
 
-  List lista = numRepetidos;
-  print(lista.toSet().toList());
+  final busca = numAleatorios.where((item) => item <= 20).toList();
+  final indexwhere = numAleatorios.indexWhere((e) => e == 43);
+  print(busca);
+  print("el indexwhere es: $indexwhere");
 
-  var auxiliar;
-  for (int i = 0; i < numAleatorios.length; i++) {
-    if (numAleatorios[i] >= numAleatorios[i]) {
-      auxiliar = numAleatorios[i];
-    }
-  }
-  print(auxiliar);
+  numAleatorios.removeWhere((item) => item == 100);
+  print(numAleatorios);
 }
