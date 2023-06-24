@@ -15,6 +15,8 @@ void main() {
   final Map<int, String> mapa4 = {};
   final mapa5 = <int, String>{};
 
+  print('$mapa1 $mapa4 $mapa1, $mapa31, $mapa2, $mapa3, $mapa5');
+
 //-------------------DECLARANDO MAPS-----------------------
 
   Map<String, String> usuarios = {};

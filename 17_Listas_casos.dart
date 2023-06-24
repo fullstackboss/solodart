@@ -26,6 +26,7 @@ void main() {
     "goku",
     "turles"
   ];
+  print(numRepetidos);
   print(nombres);
 
   final busca = numAleatorios.where((item) => item <= 20).toList();
