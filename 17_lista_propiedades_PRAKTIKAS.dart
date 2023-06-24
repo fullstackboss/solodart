@@ -38,6 +38,11 @@ void main() {
   const listaConstante = [];
   final listaFinal = [];
   dynamic listaDinamica = [2, 3, 4, "kakaroto", true];
+  print(heroes);
+  print(listaConstante);
+  print(listaFinal);
+  print(numerosInpar);
+  print(numerosPar);
 
 //WHERE
   print("-----------WHERE---------------");
@@ -89,7 +94,7 @@ void main() {
 //INSERT
   print("-----------INSERT---------------");
   print(numConsecutivos);
-  numConsecutivos.insert(1, 999);
+  numConsecutivos.insert(0, 999);
   print(numConsecutivos);
 
 //ADDALL
