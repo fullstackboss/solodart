@@ -243,7 +243,7 @@ void main() {
   ];
   print(listaFinal);
   List listNeoOcurrencia = [];
-  bool dato;
+
   for (int i = 0; i < listaFinal.length - 1; i++) {
     if ((listaFinal.where((element) => element == listaFinal[i]).length) == 1) {
       listNeoOcurrencia.add(listaFinal[i]);
